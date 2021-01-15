@@ -1,0 +1,123 @@
+
+.main
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+        
+
+}
+.main-heading
+{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin-top:100px;
+    
+    margin: auto;
+    
+ }
+.head-text
+{
+    display: inline-block; 
+    padding-top: 90px;
+    padding-left: 0px;
+    width: 300px;
+   box-sizing: border-box;
+    font-size:55px;
+   
+    
+}
+
+.list
+{   display: inline-block;   
+    box-sizing: border-box;  
+    padding-top: 100px;                    
+    padding-left: 0px;
+    padding-right: 150px;
+    width: 200px;
+   margin-left: 300px;
+   font-size: 25px;
+      
+}
+.card-main-container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
+    width: 55%;
+    margin: auto;
+    flex-wrap: wrap;
+       
+}
+
+.card-container
+{
+    
+    border: 2px solid crimson;
+    height: 200px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 6px 4px lightgray;
+    padding-bottom: 150px;
+    text-align: center;
+  
+}
+.pending-task
+{
+    padding-right: 0.7cm;
+    
+}
+.card-text
+{
+    
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+    padding-left: 15px;
+}
+.hr-body
+{
+     padding-left:25px; 
+          
+}
+
+.head-text
+{
+    text-align: left;
+    margin-left: 80px;
+}
+.list
+{
+    text-align: right;
+    padding-right: 120px;
+    padding-top: -35px;
+    font-size: 50px;
+}
+.pagination
+{
+    text-align: center;
+    padding-left: 1px;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color:#f1f1f1;
+    color: black;
+  }

@@ -1,0 +1,180 @@
+.main-container
+{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .main-heading
+ {   
+     
+   /*background: linear-gradient(white, white);*/
+  /* min-height: 100vh;*/
+   margin-left: 500px;
+   text-align: center;
+   
+   
+ }
+ h1
+  {
+   display: flex;
+   width: 50%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+   }
+ h1:before,
+ h1:after {
+     content: '';
+     border-top: 2px solid;
+     margin: 0 20px 0 0;
+     flex: 1 0 20px;
+  }
+ h1:after {
+     margin: 0 0 0 20px;
+ }
+ h1 {
+   margin: 30px 0;
+   font: 800 3em 'Avenir', sans-serif;
+   
+   color: black; 
+  
+ }
+ .back
+ {
+   display: block;
+   margin-top: 1px;
+   margin-bottom: 40px;
+   font-size:40px;
+   padding-left: 20px;
+   text-align: center;
+   font-family: 'Commissioner', sans-serif;
+ }
+ 
+ 
+ .card-main-container
+ {
+     display: flex;
+     justify-content: space-between;
+     height: 45%;
+     width: 100%;
+     margin: auto;
+     flex-wrap: wrap;
+     align-items: center;
+     
+        
+ }
+ 
+ .card-container
+ {
+     
+     border: 2px solid crimson;
+     height: 300px;
+     width: 450px;
+     border-radius: 10px;
+     box-shadow: 6px 8px 6px 4px lightgray;
+     padding-bottom: 120px;
+     text-align: center;
+     align-items: center;
+     margin-left:550px;
+     position: relative;
+    
+   
+ }
+ .pending-task
+ {
+     padding-right: 0.7cm;
+     
+ }
+ .card-text
+ {
+     
+     font-size: 30px;
+     color:crimson;
+     text-align: center;
+     padding-left: 15px;
+     font-family: 'Avenir', sans-serif;
+     
+ }
+ .hr-body
+ {
+      padding-left:150px;
+   
+           
+ }
+ .head-text
+ {
+     text-align: left;
+     margin-left: 80px;
+ }
+ .bottomright
+ {
+   position: absolute;
+   bottom: 14px;
+   right: 16px;
+   font-size: 18px;
+ }
+ .window
+{
+   border: 1px solid rgba(255, 0, 0, 0.795);
+   background-color: white;
+   border-radius: 12px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 2;
+   width: 25%;
+     text-align:center;
+     font-family: 'Avenir', sans-serif;
+}
+input[type="text"]
+{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+button
+{
+    border: 1px solid crimson;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+ .pagination
+ {
+     text-align: center;
+     padding-left: 1px;
+ }
+ a {
+     text-decoration: none;
+     display: inline;
+     padding: 8px 16px;
+   }
+   
+   a:hover {
+     background-color: white;
+     color: black;
+   }
+   
+   .previous {
+     background-color: #f1f1f1;
+     color: black;
+   }
+   
+   .next {
+     background-color:#f1f1f1;
+     color: black;
+   }

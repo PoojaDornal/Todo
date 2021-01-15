@@ -1,0 +1,166 @@
+
+.main
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    /*blur*/
+    filter: blur(6px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+        
+
+}
+.main-heading
+{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin-top:100px;
+    
+    margin: auto;
+    
+ }
+.head-text
+{
+    display: inline-block; 
+    padding-top: 90px;
+    padding-left: 0px;
+    width: 300px;
+   box-sizing: border-box;
+    font-size:55px;
+   
+    
+}
+
+.list
+{   display: inline-block;   
+    box-sizing: border-box;  
+    padding-top: 100px;                    
+    padding-left: 0px;
+    padding-right: 150px;
+    width: 200px;
+   margin-left: 300px;
+   font-size: 25px;
+      
+}
+.card-main-container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
+    width: 55%;
+    margin: auto;
+    flex-wrap: wrap;
+       
+}
+
+.card-container
+{
+    
+    border: 2px solid crimson;
+    height: 200px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 6px 4px lightgray;
+    padding-bottom: 150px;
+    text-align: center;
+  
+}
+.pending-task
+{
+    padding-right: 0.7cm;
+    
+}
+.card-text
+{
+    
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+    padding-left: 15px;
+}
+.hr-body
+{
+     padding-left:25px; 
+          
+}
+
+.head-text
+{
+    text-align: left;
+    margin-left: 80px;
+}
+.list
+{
+    text-align: right;
+    padding-right: 120px;
+    padding-top: -35px;
+    font-size: 50px;
+}
+.window
+{
+   border: 1px solid rgba(255, 0, 0, 0.795);
+   background-color: white;
+   border-radius: 12px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 2;
+   width: 25%;
+     text-align:center;
+     font-family: 'Avenir', sans-serif;
+}
+input[type="text"]
+{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+button
+{
+    border: 1px solid crimson;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+.pagination
+{
+    text-align: center;
+    padding-left: 1px;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color:#f1f1f1;
+    color: black;
+  }
